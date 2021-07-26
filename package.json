@@ -1,10 +1,12 @@
 {
-  "name": "@brandednomad/server_logger_ts",
-  "version": "0.1.0",
+  "name": "@brandednomad/eventlogger",
+  "version": "0.2.0",
   "description": "A simple event logger",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "start-dev": "ts-node-dev ./test.ts"
+    "start-dev": "ts-node-dev ./test.ts",
+    "build": "tsc index.ts"
   },
   "keywords": [
     "event logger"

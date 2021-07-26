@@ -25,7 +25,7 @@ class Logger {
 
     private writeToFile(content:string){
         try {
-            fs.appendFile(path.join(__dirname,this.config.logFilePath), content, err => {
+            fs.appendFile(path.join(__dirname,'../../../',this.config.logFilePath), content, err => {
                 if (err) {
                     console.error(err)
                     return
